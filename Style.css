@@ -520,5 +520,31 @@ section {
     background: linear-gradient(180deg, var(--accent-primary), var(--accent-gold));
 }
 
+/* Demo Button Styling */
+.demo-button {
+    display: inline-block;
+    padding: 16px 40px;
+    font-family: var(--font-heading);
+    font-size: 1.1rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    text-decoration: none;
+    color: var(--bg-primary);
+    background: linear-gradient(135deg, var(--accent-rose), var(--accent-primary));
+    border-radius: 30px;
+    transition: all 0.4s ease;
+    margin: 20px auto;
+    display: block;
+    width: fit-content;
+    box-shadow: 0 8px 25px rgba(232, 164, 184, 0.4);
+}
+
+.demo-button:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 12px 35px rgba(232, 164, 184, 0.55);
+    background: linear-gradient(135deg, var(--accent-primary), var(--accent-gold));
+}
+
 
 
