@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mitchelle Adhiambo Oloo | Gallery - BSE Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700;900&amp;family=Poppins:wght@300;400;600&amp;display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <canvas id="particles-canvas"></canvas>
+    
+    <header>
+        <nav>
+            <div class="logo">
+                <i class="fas fa-code"></i> MitchyDev
+            </div>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="services.html">Services</a></li>
+                <li><a href="gallery.html">Gallery</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+            <div class="menu-toggle">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </nav>
+    </header>
+
+    <section class="hero gallery-hero">
+        <div class="hero-content">
+            <h1 class="typing">Portfolio <span class="highlight">Gallery</span></h1>
+            <h2>Images • Audio • Video</h2>
+        </div>
+    </section>
+    
+    <section class="section">
+        <h2 class="section-title">Visual Showcase</h2>
+        <div class="projects-grid">
+            <div class="project-card">
+                <div class="card-media">
+                    <img src="assets/femitech.png" alt="LunaFlow">
+                </div>
+                <div class="card-content">
+                    <h3>LunaFlow FemTech App</h3>
+                    <p>Multi-page wellness app with dark feminine theme, glassmorphism, audio integration.</p>
+                    <div class="tech-tags">
+                        <span>HTML/CSS</span>
+                        <span>JS Animations</span>
+                        <span>Responsive</span>
+                    </div>
+                    <a href="../assignment2.html/Index.html" class="btn" target="_blank">Live Demo</a>
+                </div>
+            </div>
+            <div class="project-card">
+                <div class="card-media">
+                    <img src="monitoring system.png" alt="Monitoring System">
+                </div>
+                <div class="card-content">
+                    <h3>Monitoring system</h3>
+                    <p>To automate and secure guest entry/exit logs in high-traffic residential areas using centralized database logic</p>
+                    <div class="tech-tags">
+                        <span>CSS Grid</span>
+                        <span>Video Embed</span>
+                    </div>
+                    <a href="https://github.com/Mitchy25white/Gated-Community-Guest-Monitoring-System.git"  class="btn" target="_blank">View</a>
+                </div>
+            </div>
+            <div class="project-card">
+                <div class="card-media">
+                    <div class="placeholder"><i class="fas fa-calculator"></i></div>
+                </div>
+                <div class="card-content">
+                    <h3>Wakahare Salary Calculator</h3>
+                    <p>Interactive JS calculator with form validation & dynamic results.</p>
+                    <div class="tech-tags">
+                        <span>Vanilla JS</span>
+                        <span>DOM Manipulation</span>
+                    </div>
+                    <a href="../jascript.html" class="btn" target="_blank">Try It</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+        <div class="gallery-grid">
+            <div class="gallery-item">
+                <img src="assets/femitech.png" alt="LunaFlow FemTech App" data-lightbox="gallery">
+                <div class="gallery-overlay">
+                    <i class="fas fa-search-plus"></i>
+                </div>
+            </div>
+            <div class="gallery-item">
+                <img src="assets/lunaflow.png" alt="LunaFlow Design" data-lightbox="gallery">
+                <div class="gallery-overlay">
+                    <i class="fas fa-search-plus"></i>
+                </div>
+            </div>
+            <div class="gallery-item video-placeholder">
+                <div class="video-container">
+                    <iframe width="100%" height="200" src="../assignment2.html/index.html" title="Demo Video" frameborder="0" allowfullscreen></iframe>
+                </div>
+                <div class="gallery-overlay">
+                    <i class="fas fa-play"></i>
+                </div>
+            </div>
+            <div class="gallery-item audio-item">
+                <audio controls class="gallery-audio">
+                    <source src="assets/Cycle_of_Serenity.mp3" type="audio/mpeg">
+                    Your browser does not support the audio element.
+                </audio>
+                <div class="audio-title">Cycle of Serenity - Background Track</div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2026 Mitchelle Adhiambo Oloo | BSE-01-0150/2025 | Made with <i class="fas fa-heart"></i></p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
